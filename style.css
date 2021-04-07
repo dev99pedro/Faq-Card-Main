@@ -1,0 +1,240 @@
+*,
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.container{
+    background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    height: 100vh;
+    display: flex;
+    align-items: center;
+   
+}
+
+.fora{
+    background-color: white;
+    height: 34em;
+    margin: auto;
+    width: 22em;
+    border-radius: 23px;
+    padding-top: 22vh;
+    
+    position: relative;
+
+}
+
+.classh1{
+    text-align: center;
+    margin-bottom: 1em;
+    
+}
+
+.flex{
+    display: flex;
+    
+    
+}
+
+
+.arrow{
+    height: 10px;
+    margin-top: 24px;
+    margin-left: 13px;
+}
+
+
+
+.arrow0{
+    height: 10px;
+    margin-top: 24px;
+    margin-left: 11px;
+
+}
+
+
+
+
+.arrow1{
+    height: 10px;
+    margin-top: 24px;
+    margin-left: 80px;
+}
+
+.arrow2{
+    height: 10px;
+    margin-top: 24px;
+    margin-left: 80px;
+}
+
+
+.arrow3{
+    height: 10px;
+    margin-top: 24px;
+    margin-left: 36px;
+}
+
+hr{
+    margin: auto;
+    width: 20em;
+    
+    color: hsl(240, 5%, 91%);
+    
+}
+
+.pres{
+    margin-bottom: 1px;
+    padding-bottom: 15px;
+    padding-left: 19px;
+    
+    
+}
+
+.foto1{
+    display: none;
+}
+
+.foto2{
+    display: none;
+}
+
+
+#show,
+#show1,
+#show2,
+#show3,
+#show4{
+    display: none;
+}
+
+
+
+.pques{
+    margin-left: 1.3em;
+    margin-bottom: 0.5em;
+    color: hsl(237, 12%, 33%);
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.pques:hover{
+    color: red;
+}
+
+.woman{
+    position: absolute;
+    top: -9vh;
+    left: 43%;
+    transform: translateX(-50%);
+}
+
+
+@media (min-width: 986px){
+   .fora{
+    height: auto;
+    width: 55em;
+    padding-top: 12vh;
+    min-height: 30em;
+    overflow: auto;
+   }
+
+
+   hr{
+       width: 25em;
+       margin-top: 5px;
+   } 
+   
+   .container{
+    justify-content: center;
+   }
+
+   .classh1{
+    margin-bottom: 0;
+    position: relative;
+    bottom: 4.4em;
+    width: 50em;
+    left: 68px;
+   }
+
+   
+
+   .pres{
+    width: 28em;
+    margin-top: 11px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-left: 21px;
+   }
+
+   
+
+
+   .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 24em;
+    margin-top: -3em;
+   }
+
+   .woman{
+    display: none;
+    
+   }
+
+
+   .foto1{
+    display: block;
+    position: absolute;
+    bottom: 16em;
+    left: -65px;
+    width: 415px;
+    transform: translateY(50%);
+    
+    
+   }
+
+   .foto2{
+    display: block;
+    position: absolute;
+    bottom: 111px;
+    left: -59px;
+   }
+
+   
+
+   .flex{
+       margin-left: -2em;
+   }
+
+   .arrow{
+    margin-left: 5em
+   }
+
+   .arrow1{
+    margin-left: 9em
+   }
+
+   .arrow2{
+    margin-left: 9em
+   }
+
+   .arrow3{
+       margin-left: 6em;
+   }
+
+   .arrow0{
+       margin-left: 5em;
+   }
+
+}
+
+@media(min-width: 768px){
+    .fora{
+        padding-top: 8em;
+    }
+
+    
+}

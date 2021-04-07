@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+  
+  
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+
+</head>
+<body>
+  <div class="container">
+  
+  <div class="fora">
+
+
+  <img class="woman" src="images/illustration-woman-online-mobile.svg">
+  
+
+  <div class="classh1">
+  <h1>FAQ</h1>
+  </div>
+
+  <div class="form">
+  <div class="flex" onclick="clicar()">
+  <p class="pques" id="flex0">How many team members can I invite?</p>
+  <img class="arrow0" src="images/icon-arrow-down.svg">
+  </div>
+  <div id="show">
+    <p class="pres">You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.</p>
+  </div>
+  <hr>
+
+  <div class="flex" onclick="clicar1()">
+  <p class="pques" id="flex1" >What is the maximum file upload size?</p>
+  <img class="arrow" src="images/icon-arrow-down.svg">
+  </div>
+  <div id="show1">
+    <p class="pres">No more than 2GB. All files in your account must fit your allotted storage space</p>
+  </div>
+  <hr>
+  
+  
+  <div class="flex" onclick="clicar2()">
+  <p class="pques" id="flex2" >How do I reset my password?</p>
+  <img class="arrow1" src="images/icon-arrow-down.svg">
+  </div>
+  <div id="show2">
+    <p class="pres">Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.</p>
+  </div>
+  <hr>
+  
+
+  <div class="flex" onclick="clicar3()">
+  <p class="pques" id="flex3"> Can I cancel my subscription?</p>
+  <img class="arrow2" src="images/icon-arrow-down.svg">
+  </div>
+  <div id="show3">
+    <p class="pres">Yes! Send us a message and we’ll process your request no questions asked.</p>
+  </div>
+  <hr>
+
+
+
+  <div class="flex" onclick="clicar4()">
+  <p class="pques" id="flex4">Do you provide additional support?</p>
+  <img class="arrow3" src="images/icon-arrow-down.svg">
+  </div>
+  <div id="show4">
+    <p class="pres">Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+  </div>
+  <hr>
+
+  
+  
+
+
+
+ </div>
+
+ <img class="foto1" src="images/illustration-woman-online-desktop.svg">
+ <img class="foto2" src="images/illustration-box-desktop.svg">
+ 
+ </div> 
+ </div>
+  
+
+
+
+ <script>
+
+
+
+
+
+   let show=document.getElementById('show')
+   let show1=document.getElementById('show1')
+   let show2=document.getElementById('show2')
+   let show3=document.getElementById('show3')
+   let show4=document.getElementById('show4')
+  
+   let flex0= document.getElementById('flex0')
+   let flex1= document.getElementById('flex1')
+   let flex2= document.getElementById('flex2')
+   let flex3= document.getElementById('flex3')
+   let flex4= document.getElementById('flex4')
+  
+
+  
+
+
+
+
+ function clicar(){
+ 
+   if(show.style.display=='' | show.style.display=='none'){
+     show.style.display='block'
+     flex0.style.fontWeight='bold'
+     flex1.style.fontWeight=''
+     flex2.style.fontWeight=''
+     flex3.style.fontWeight=''
+     flex4.style.fontWeight=''
+     show1.style.display='none'
+     show2.style.display='none'
+     show3.style.display='none'
+     show4.style.display='none'
+    
+   } else if(show.style.display=='block'){
+     show.style.display='none'
+     flex0.style.fontWeight=''
+   }
+ }
+
+
+ function clicar1(){
+   if(show1.style.display=='' | show1.style.display=='none'){
+     show1.style.display='block'
+     flex1.style.fontWeight='bold'
+     flex0.style.fontWeight=''
+     flex2.style.fontWeight=''
+     flex3.style.fontWeight=''
+     flex4.style.fontWeight=''
+     show.style.display='none'
+     show2.style.display='none'
+     show3.style.display='none'
+     show4.style.display='none'
+    
+   } else if(show1.style.display=='block'){
+     show1.style.display='none'
+     flex1.style.fontWeight=''
+   }
+ }
+
+
+
+ function clicar2(){
+   if(show2.style.display=='' | show2.style.display=='none'){
+     show2.style.display='block'
+     flex2.style.fontWeight='bold'
+     flex1.style.fontWeight=''
+     flex0.style.fontWeight=''
+     flex3.style.fontWeight=''
+     flex4.style.fontWeight=''
+     show.style.display='none'
+     show1.style.display='none'
+     show3.style.display='none'
+     show4.style.display='none'
+   
+    
+   } else if(show2.style.display=='block'){
+     show2.style.display='none'
+     flex2.style.fontWeight=''
+   }
+ }
+
+
+
+ function clicar3(){
+   if(show3.style.display=='' | show3.style.display=='none'){
+     show3.style.display='block'
+     flex3.style.fontWeight='bold'
+     flex1.style.fontWeight=''
+     flex2.style.fontWeight=''
+     flex0.style.fontWeight=''
+     flex4.style.fontWeight=''
+     show.style.display='none'
+     show1.style.display='none'
+     show2.style.display='none'
+     show4.style.display='none'
+   
+    
+   } else if(show3.style.display=='block'){
+     show3.style.display='none'
+     flex3.style.fontWeight=''
+   }
+ }
+
+
+ function clicar4(){
+   if(show4.style.display=='' | show4.style.display=='none'){
+     show4.style.display='block'
+     flex4.style.fontWeight='bold'
+     flex1.style.fontWeight=''
+     flex2.style.fontWeight=''
+     flex3.style.fontWeight=''
+     flex0.style.fontWeight=''
+     show.style.display='none'
+     show1.style.display='none'
+     show2.style.display='none'
+     show3.style.display='none'
+  
+    
+   } else if(show4.style.display=='block'){
+     show4.style.display='none'
+     flex4.style.fontWeight=''
+   }
+ }
+
+
+  
+   
+  
+
+
+
+
+   
+ 
+
+  
+
+
+ </script>
+</body>
+</html>
