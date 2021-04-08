@@ -1,5 +1,5 @@
 # Frontend Mentor - FAQ accordion card
-
+FAQ ACCORDION. USING HTML, CSS, JAVASCRIPT
 ![Design preview for the FAQ accordion card coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
